@@ -1,6 +1,6 @@
 package com.example.aj.interviewqa;
 
-public class Task2ManualImplementation {
+public class Task3ManualImplementation {
 
     public static Integer[] makeCommonArray(Integer[] a, Integer[] b){
         Integer[] mergedArray = mergeArrays(a,b);

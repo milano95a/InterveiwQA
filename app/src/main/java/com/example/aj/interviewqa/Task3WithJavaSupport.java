@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.HashSet;
 import java.util.Set;
 
-public class Task2WithJavaSupport {
+public class Task3WithJavaSupport {
 
 //    First array have numbers: 4, 5, 98, 45, 67, 34, 35, 54, 21, 45, 73, 62
 //    Second array contains numbers : 6, 45, 54, 29, 32, 21, 87, 21, 34

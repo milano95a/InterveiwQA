@@ -1,0 +1,28 @@
+Task 2: 
+Please provide a solution to check if a number is a prime number using a loop of one - O(1). The input number can be between 1 and 10000 only.
+
+Answer:
+I do not think plain lookup with runtime of O(1) is possible on an array. The best we can do 
+is ASK algorithm with run-time of O((log n)^6). However if we check and store the 
+numbers we could get close to O(1)
+
+lets say we have this Number data-structure
+
+class Number {
+	int number;
+	boolean isPrime;
+}
+
+If we check and store all the 10,000 number in this format then we lookup with O(1)
+
+Number[10001] numStore;
+
+boolean check(int x){
+	return numStore[x].isPrime; 	
+}
+
+I asked on Stackoverflow and got the simliar answer to mine, 
+If you have a solution please share, it's killing me
+
+
+
